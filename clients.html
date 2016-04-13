@@ -58,7 +58,22 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="index.html" data-toggle="tooltip" title="Dashboard"><span class="glyphicon glyphicon-nav glyphicon-home"></span>Dashboard</a></li>
-        <li class="active"><a href="clients.html" data-toggle="tooltip" title="About Us"><span class="glyphicon glyphicon-nav glyphicon-user"></span>Clients</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-nav glyphicon-user"></span>Clients<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="client-nav"><a href="clients.html">View Clients</a></li>
+            <li role="separator" class="divider"></li>
+            <li class="client-nav"><a href="#">Add New Client</a></li>
+            <li role="separator" class="divider"></li>
+
+            <li class="client-nav"><form class="navbar-form navbar-left" role="search">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                  <button type="submit" class="btn btn-default">Submit</button>
+                  </div>
+                </form>
+            </li>
+          </ul>
         <li><a href="schedule.html" data-toggle="tooltip" title="Contact Info"><span class="glyphicon glyphicon-nav glyphicon-calendar"></span>Schedule</a></li>
       </ul>
 
@@ -69,6 +84,8 @@
           <ul class="dropdown-menu">
             <li><a href="user-profile.html">Profile</a></li>
             <li><a href="#">Settings</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Support</a></li>
             <li><a href="#">Logout</a></li>
           </ul>
         </li>
@@ -109,7 +126,7 @@
           <td>April 4th, 2:00 PM</td>
           <td>
 
-              <a href="#"><img class="assess-icon" src="http://www.pupz.com.au/wp-content/themes/twentyten/images/patches/heart.png"></a>
+              <a href="#"><img class="assess-icon" src="http://icons.iconarchive.com/icons/graphicloads/100-flat-2/256/favourite-heart-icon.png"></a>
               <a href="#"><img class="assess-icon" src="http://cliparts.co/cliparts/8TE/b5d/8TEb5dXGc.png"></a>
               <a href="#"><img class="assess-icon" src="http://www.clker.com/cliparts/Y/c/q/c/H/0/basketball-th.png"></a>
           </td>
@@ -121,7 +138,7 @@
           <td>April 6th, 4:00 PM</td>
           <td>
 
-              <a href="#"><img class="assess-icon" src="http://www.pupz.com.au/wp-content/themes/twentyten/images/patches/heart.png"></a>
+              <a href="#"><img class="assess-icon" src="http://icons.iconarchive.com/icons/graphicloads/100-flat-2/256/favourite-heart-icon.png"></a>
               <a href="#"><img class="assess-icon" src="http://cliparts.co/cliparts/8TE/b5d/8TEb5dXGc.png"></a>
               <a href="#"><img class="assess-icon" src="http://www.clker.com/cliparts/Y/c/q/c/H/0/basketball-th.png"></a>
           </td>
@@ -133,7 +150,7 @@
           <td>April 12th, 8:00 PM</td>
           <td>
 
-              <a href="#"><img class="assess-icon" src="http://www.pupz.com.au/wp-content/themes/twentyten/images/patches/heart.png"></a>
+              <a href="#"><img class="assess-icon" src="http://icons.iconarchive.com/icons/graphicloads/100-flat-2/256/favourite-heart-icon.png"></a>
               <a href="#"><img class="assess-icon" src="http://cliparts.co/cliparts/8TE/b5d/8TEb5dXGc.png"></a>
               <a href="#"><img class="assess-icon" src="http://www.clker.com/cliparts/Y/c/q/c/H/0/basketball-th.png"></a>
           </td>
@@ -145,7 +162,7 @@
           <td>April 4th, 2:00 PM</td>
           <td>
 
-              <a href="#"><img class="assess-icon" src="http://www.pupz.com.au/wp-content/themes/twentyten/images/patches/heart.png"></a>
+              <a href="#"><img class="assess-icon" src="http://icons.iconarchive.com/icons/graphicloads/100-flat-2/256/favourite-heart-icon.png"></a>
               <a href="#"><img class="assess-icon" src="http://cliparts.co/cliparts/8TE/b5d/8TEb5dXGc.png"></a>
               <a href="#"><img class="assess-icon" src="http://www.clker.com/cliparts/Y/c/q/c/H/0/basketball-th.png"></a>
           </td>
@@ -157,59 +174,12 @@
           <td>April 6th, 4:00 PM</td>
           <td>
 
-              <a href="#"><img class="assess-icon" src="http://www.pupz.com.au/wp-content/themes/twentyten/images/patches/heart.png"></a>
+              <a href="#"><img class="assess-icon" src="http://icons.iconarchive.com/icons/graphicloads/100-flat-2/256/favourite-heart-icon.png"></a>
               <a href="#"><img class="assess-icon" src="http://cliparts.co/cliparts/8TE/b5d/8TEb5dXGc.png"></a>
               <a href="#"><img class="assess-icon" src="http://www.clker.com/cliparts/Y/c/q/c/H/0/basketball-th.png"></a>
           </td>
         </tr>
-        <tr class="table-content">
 
-          <td><img class="patient-photo" src="https://cdn.fstoppers.com/styles/full/s3/lead/2014/12/fstoppers-dylan-patrick-setting-up-a-successful-headshot-session-8.jpg"></td>
-          <td><a href="profile.html">Mike Mikers</a></td>
-          <td>April 12th, 8:00 PM</td>
-          <td>
-
-              <a href="#"><img class="assess-icon" src="http://www.pupz.com.au/wp-content/themes/twentyten/images/patches/heart.png"></a>
-              <a href="#"><img class="assess-icon" src="http://cliparts.co/cliparts/8TE/b5d/8TEb5dXGc.png"></a>
-              <a href="#"><img class="assess-icon" src="http://www.clker.com/cliparts/Y/c/q/c/H/0/basketball-th.png"></a>
-          </td>
-        </tr>
-        <tr class="table-content">
-
-          <td><img class="patient-photo" src="http://static1.squarespace.com/static/51773f51e4b054c7ac3739b7/t/55665b32e4b0194f00fc5e39/1432771379131/Ian+Somerhalder+Bradford+Rogne+Headshots+Los+Angeles.jpg?format=original"></td>
-          <td><a href="profile.html">Otto Ottoman</a></td>
-          <td>April 4th, 2:00 PM</td>
-          <td>
-
-              <a href="#"><img class="assess-icon" src="http://www.pupz.com.au/wp-content/themes/twentyten/images/patches/heart.png"></a>
-              <a href="#"><img class="assess-icon" src="http://cliparts.co/cliparts/8TE/b5d/8TEb5dXGc.png"></a>
-              <a href="#"><img class="assess-icon" src="http://www.clker.com/cliparts/Y/c/q/c/H/0/basketball-th.png"></a>
-          </td>
-        </tr>
-        <tr class="table-content">
-
-          <td><img class="patient-photo" src="http://www.colemanphotographix.com/wp-content/uploads/WomensHeadshot-0015.jpg"></td>
-          <td><a href="profile.html">Michelle Wellness</a></td>
-          <td>April 6th, 4:00 PM</td>
-          <td>
-
-              <a href="#"><img class="assess-icon" src="http://www.pupz.com.au/wp-content/themes/twentyten/images/patches/heart.png"></a>
-              <a href="#"><img class="assess-icon" src="http://cliparts.co/cliparts/8TE/b5d/8TEb5dXGc.png"></a>
-              <a href="#"><img class="assess-icon" src="http://www.clker.com/cliparts/Y/c/q/c/H/0/basketball-th.png"></a>
-          </td>
-        </tr>
-        <tr class="table-content">
-
-          <td><img class="patient-photo" src="https://cdn.fstoppers.com/styles/full/s3/lead/2014/12/fstoppers-dylan-patrick-setting-up-a-successful-headshot-session-8.jpg"></td>
-          <td><a href="profile.html">Mike Mikers</a></td>
-          <td>April 12th, 8:00 PM</td>
-          <td>
-
-              <a href="#"><img class="assess-icon" src="http://www.pupz.com.au/wp-content/themes/twentyten/images/patches/heart.png"></a>
-              <a href="#"><img class="assess-icon" src="http://cliparts.co/cliparts/8TE/b5d/8TEb5dXGc.png"></a>
-              <a href="#"><img class="assess-icon" src="http://www.clker.com/cliparts/Y/c/q/c/H/0/basketball-th.png"></a>
-          </td>
-        </tr>
       </tbody>
     </table>
   </div>

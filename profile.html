@@ -58,8 +58,8 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html" data-toggle="tooltip" title="Dashboard"><span class="glyphicon glyphicon-nav glyphicon-home"></span>Dashboard</a></li>
-        <li><a href="clients.html" data-toggle="tooltip" title="About Us"><span class="glyphicon glyphicon-nav glyphicon-user"></span>Clients</a></li>
+        <li><a href="index.html" data-toggle="tooltip" title="Dashboard"><span class="glyphicon glyphicon-nav glyphicon-home"></span>Dashboard</a></li>
+        <li class="active"><a href="clients.html" data-toggle="tooltip" title="About Us"><span class="glyphicon glyphicon-nav glyphicon-user"></span>Clients</a></li>
         <li><a href="schedule.html" data-toggle="tooltip" title="Contact Info"><span class="glyphicon glyphicon-nav glyphicon-calendar"></span>Schedule</a></li>
       </ul>
 
@@ -70,6 +70,8 @@
           <ul class="dropdown-menu">
             <li><a href="user-profile.html">Profile</a></li>
             <li><a href="#">Settings</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Support</a></li>
             <li><a href="#">Logout</a></li>
           </ul>
         </li>
@@ -100,7 +102,15 @@
       </div>
 
     <div class="col-md-9">
-    <h3>Otto's Assessments</h3><br>
+    <div class="row">
+    <div class="col-md-6">
+    <h3>Otto's Assessments</h3>
+    </div>
+    <div class="col-md-6">
+    <button type="button" class="btn btn-success new-assess">New Assessment</button>
+    </div>
+    </div><br>
+
     <table class="table table-hover">
       <thead>
         <tr>

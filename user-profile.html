@@ -58,7 +58,22 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="index.html" data-toggle="tooltip" title="Dashboard"><span class="glyphicon glyphicon-nav glyphicon-home"></span>Dashboard</a></li>
-        <li><a href="clients.html" data-toggle="tooltip" title="About Us"><span class="glyphicon glyphicon-nav glyphicon-user"></span>Clients</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-nav glyphicon-user"></span>Clients<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="client-nav"><a href="clients.html">View Clients</a></li>
+            <li role="separator" class="divider"></li>
+            <li class="client-nav"><a href="#">Add New Client</a></li>
+            <li role="separator" class="divider"></li>
+
+            <li class="client-nav"><form class="navbar-form navbar-left" role="search">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                  <button type="submit" class="btn btn-default">Submit</button>
+                  </div>
+                </form>
+            </li>
+          </ul>
         <li><a href="schedule.html" data-toggle="tooltip" title="Contact Info"><span class="glyphicon glyphicon-nav glyphicon-calendar"></span>Schedule</a></li>
       </ul>
 
@@ -69,6 +84,8 @@
           <ul class="dropdown-menu">
             <li><a href="user-profile.html">Profile</a></li>
             <li><a href="#">Settings</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Support</a></li>
             <li><a href="#">Logout</a></li>
           </ul>
         </li>
