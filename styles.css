@@ -1,45 +1,13 @@
 * {
   font-family: 'Droid Sans', sans-serif;
 }
-/*Navbar*/
-.nav {
-  list-style: none;
-  display: inline-block;
-  padding: 15px;
-  font-size: 15px;
-  margin-top: 10px;
-}
-.nav2 {
-  float: right;
-  margin-right: 12px;
-}
-.navbar {
-  padding-left: 15px;
-  padding-right: 15px;
-  height: 79px;
-}
-.nav-sections {
-  float: left;
-}
-.glyphicon-nav {
-  color: #4483ba;
-  padding-right: 3px;
-}
-.dash-info {
-  float: right;
-  list-style: none;
-  margin-top: -10px;
 
+.navbar-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
 }
-.dash-info img {
-  width: 45px;
-  height: 45px;
-  border-radius: 100px;
-}
-.dash-info li {
-  display: inline;
-  padding-left: 10px;
-}
+
 
 .profile-photo {
   height: 250px;
