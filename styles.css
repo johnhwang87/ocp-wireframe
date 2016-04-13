@@ -1,0 +1,358 @@
+* {
+  font-family: 'Droid Sans', sans-serif;
+}
+/*Navbar*/
+.nav {
+  list-style: none;
+  display: inline-block;
+  padding: 15px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.nav2 {
+  float: right;
+  margin-right: 12px;
+}
+.navbar {
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 79px;
+}
+.nav-sections {
+  float: left;
+}
+.glyphicon-nav {
+  color: #4483ba;
+  padding-right: 3px;
+}
+.dash-info {
+  float: right;
+  list-style: none;
+  margin-top: -10px;
+
+}
+.dash-info img {
+  width: 45px;
+  height: 45px;
+  border-radius: 100px;
+}
+.dash-info li {
+  display: inline;
+  padding-left: 10px;
+}
+
+.profile-photo {
+  height: 250px;
+  width: 250px;
+  background-size: contain;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.doc-bio h5 {
+  font-weight: 700;
+}
+table {
+  margin-left: 10px;
+  margin-right: 10px;
+  -webkit-animation: fadein 2.5s;
+  animation: fadein 2.5s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.patient-photo {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  border: 1px solid #F7F7F9;
+}
+.assess-icon {
+  height: 30px;
+  width: 30px;
+  padding-right: 3px;
+
+}
+.content {
+  /*width: auto;*/
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #888;
+  border-bottom: 1px solid #888;
+  background-color: #fcfcfc;
+  padding: 15px;
+}
+.glyphicon-assess {
+  color: red;
+  padding-right: 4px;
+}
+.score {
+  color: green;
+  font-size: 20px;
+}
+.score-average {
+  color: orange;
+  font-size: 20px;
+}
+.score-poor {
+  color: red;
+  font-size: 20px;
+}
+.team-new-container {
+  height: 450px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-top: 2%;
+  /*overflow-y: scroll;*/
+}
+.team-dash-container {
+  height: 350px;
+  width: 200px;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+  padding-top: 2%;
+  overflow-y: scroll;
+}
+.feed-container {
+  max-height: 450px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-top: 2%;
+  overflow-y: scroll;
+}
+.team-dash-pic {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  border: 2px solid #e8e8ed;
+  float: left;
+  /*margin-left: 5%;*/
+  margin-bottom: 3%;
+}
+.team-dash-list {
+  list-style: none;
+  padding: 2px 0px 2px 0px;
+  height: 50px;
+}
+.team-dash-name {
+  padding-left: 35%;
+  margin-top: 4%;
+}
+.dash-team-title {
+  margin-left: 10%;
+  border-bottom: 3px solid #e8e8ed;
+  padding: 5px;
+  margin: 20px;
+}
+.dash-feed-title {
+  margin-left: 10%;
+  border-bottom: 3px solid #e8e8ed;
+  padding: 10px;
+  margin: 0px 15px 0px 15px;
+}
+.team-ul {
+  margin-right: 14%;
+}
+.feed-items {
+  display: inline-block;
+  list-style: none;
+  height: 70px;
+  border-bottom: 1px solid #e8e8ed;
+  margin-right: 5%;
+}
+.contact-feed {
+  float: right;
+  padding-top: 20px;
+}
+.content-feed {
+  width: 700px;
+  padding-top: 20px;
+}
+.feed-type {
+  border-right: 1px solid #e8e8ed;
+  height: 100%;
+  padding-top: 3px;
+}
+.feed-date {
+  color: grey;
+}
+.btn-type {
+  width: 80%;
+}
+/*searchform in CLIENTS*/
+.search-form .form-group {
+  float: right !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+}
+.search-form .form-group input.form-control {
+  padding-right: 20px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display:block;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+  display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+  display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+  width: 100%;
+  border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group span.form-control-feedback {
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #3596e0;
+  left: initial;
+  font-size: 14px;
+}
+/*calendar stuff*/
+#calendar {
+  width: 100%;
+  margin: 0 auto;
+}
+#calendar{
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  font-family: 'Lato', sans-serif;
+}
+#calendar_weekdays div{
+  display:inline-block;
+  vertical-align:top;
+}
+#calendar_content, #calendar_weekdays, #calendar_header{
+  position: relative;
+  width: 320px;
+  overflow: hidden;
+  float: left;
+  z-index: 10;
+}
+#calendar_weekdays div, #calendar_content div{
+  width:40px;
+  height: 40px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #FFFFFF;
+  color: #787878;
+}
+#calendar_content{
+  -webkit-border-radius: 0px 0px 12px 12px;
+  -moz-border-radius: 0px 0px 12px 12px;
+  border-radius: 0px 0px 12px 12px;
+}
+#calendar_content div{
+  float: left;
+}
+#calendar_content div:hover{
+  background-color: #F8F8F8;
+}
+#calendar_content div.blank{
+  background-color: #E8E8E8;
+}
+#calendar_header, #calendar_content div.today{
+  zoom: 1;
+  filter: alpha(opacity=70);
+  opacity: 0.7;
+}
+#calendar_content div.today{
+  color: #FFFFFF;
+}
+#calendar_header{
+  width: 100%;
+  height: 37px;
+  text-align: center;
+  background-color: #FF6860;
+  padding: 18px 0;
+  -webkit-border-radius: 12px 12px 0px 0px;
+  -moz-border-radius: 12px 12px 0px 0px;
+  border-radius: 12px 12px 0px 0px;
+}
+#calendar_header h1{
+  font-size: 1.5em;
+  color: #FFFFFF;
+  float:left;
+  width:70%;
+}
+i[class^=icon-chevron]{
+  color: #FFFFFF;
+  float: left;
+  width:15%;
+  border-radius: 50%;
+}
+
+
+/*chart practice*/
+
+
+/*GRAPH CSS*/
+
+/*background grid lines*/
+svg.graph {
+    height: 500px;
+    width: 100%;
+    border: 1px solid black;
+}
+svg.graph .grid {
+  stroke: white;
+  stroke-dasharray: 1 2;
+  stroke-width: 1;
+}
+
+/*data points*/
+svg.graph .points {
+  stroke: white;
+  stroke-width: 3;
+}
+svg.graph .first_set {
+  fill: #00554d;
+}
+svg.graph .second_set {
+  fill: #00743f;
+}
+
+svg.graph .surfaces {
+  fill-opacity: 0.5;
+}
+
+svg.graph .grid.double {
+  stroke-opacity: 0.4;
+}
+
+svg.graph .labels {
+  font-family: Arial;
+  font-size: 14px;
+  kerning: 1;
+}
+
+svg.graph .labels.x-labels {
+  text-anchor: middle;
+}
+
+svg.graph .labels.y-labels {
+  text-anchor: end;
+}
+
+
+
+

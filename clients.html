@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Optimis Care Provider</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="scripts.js"></script>
+</head>
+<body>
+
+  <div class="navbar navbar-default navbar-top">
+    <a class="navbar-brand" href="#"><img src="https://optimis-assets-staging3.optimispt.com/assets/capote/optimis-logo-a54ddba76125039186f81d1165be3f34.svg"></a>
+    <ul class="nav-sections">
+      <li class="nav"><a href="index.html" data-toggle="tooltip" title="Home"><span class="glyphicon glyphicon-nav glyphicon-home"></span>Home</a></li>
+      <li class="nav"><a href="#" data-toggle="tooltip" title="About Us"><span class="glyphicon glyphicon-nav glyphicon-user"></span>Clients</a></li>
+      <li class="nav"><a href="schedule.html" data-toggle="tooltip" title="Contact Info"><span class="glyphicon glyphicon-nav glyphicon-calendar"></span>Schedule</a></li>
+    </ul>
+
+    <ul class="dash-info">
+      <li>
+      <div class="row">
+        <a href="user-profile.html"><div class="col-xs-3">
+          <img class="navbar-pic" src="https://www.science.unsw.edu.au/files/news/527C868C9284958A22F9E4D448BDDA12.JPG">
+        </div>
+        <div class="col-xs-8">
+          <p>Welcome, <br>President Obama</p>
+        </div></a>
+      </div>
+      </li>
+      <li><a href="#">Settings</a></li>
+      <li><a href="#">Logout</a></li>
+    </ul>
+  </div>
+
+  <div class="container content">
+
+         <h3 class="client-header">Clients</h3>
+
+         <form action="" class="search-form">
+          <div class="form-group has-feedback">
+          <label for="search" class="sr-only">Search</label>
+          <input type="text" class="form-control" name="search" id="search" placeholder="Search Clients">
+          <span class="glyphicon glyphicon-search form-control-feedback"></span>
+          </div>
+         </form>
+
+
+    <br>
+    <table class="table table-hover" id="table">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Name</th>
+          <th>Appointment</th>
+          <th>Assessments</th>
+        </tr>
+      </thead>
+      <tbody id="tabletable">
+
+        <tr class="table-content">
+
+          <td><img class="patient-photo" src="http://static1.squarespace.com/static/51773f51e4b054c7ac3739b7/t/55665b32e4b0194f00fc5e39/1432771379131/Ian+Somerhalder+Bradford+Rogne+Headshots+Los+Angeles.jpg?format=original"></td>
+          <td><a href="profile.html">Otto Ottoman</a></td>
+          <td>April 4th, 2:00 PM</td>
+          <td>
+
+              <a href="#"><img class="assess-icon" src="http://www.pupz.com.au/wp-content/themes/twentyten/images/patches/heart.png"></a>
+              <a href="#"><img class="assess-icon" src="http://cliparts.co/cliparts/8TE/b5d/8TEb5dXGc.png"></a>
+              <a href="#"><img class="assess-icon" src="http://www.clker.com/cliparts/Y/c/q/c/H/0/basketball-th.png"></a>
+          </td>
+        </tr>
+        <tr class="table-content">
+
+          <td><img class="patient-photo" src="http://www.colemanphotographix.com/wp-content/uploads/WomensHeadshot-0015.jpg"></td>
+          <td><a href="profile.html">Michelle Wellness</a></td>
+          <td>April 6th, 4:00 PM</td>
+          <td>
+
+              <a href="#"><img class="assess-icon" src="http://www.pupz.com.au/wp-content/themes/twentyten/images/patches/heart.png"></a>
+              <a href="#"><img class="assess-icon" src="http://cliparts.co/cliparts/8TE/b5d/8TEb5dXGc.png"></a>
+              <a href="#"><img class="assess-icon" src="http://www.clker.com/cliparts/Y/c/q/c/H/0/basketball-th.png"></a>
+          </td>
+        </tr>
+        <tr class="table-content">
+
+          <td><img class="patient-photo" src="https://cdn.fstoppers.com/styles/full/s3/lead/2014/12/fstoppers-dylan-patrick-setting-up-a-successful-headshot-session-8.jpg"></td>
+          <td><a href="profile.html">Mike Mikers</a></td>
+          <td>April 12th, 8:00 PM</td>
+          <td>
+
+              <a href="#"><img class="assess-icon" src="http://www.pupz.com.au/wp-content/themes/twentyten/images/patches/heart.png"></a>
+              <a href="#"><img class="assess-icon" src="http://cliparts.co/cliparts/8TE/b5d/8TEb5dXGc.png"></a>
+              <a href="#"><img class="assess-icon" src="http://www.clker.com/cliparts/Y/c/q/c/H/0/basketball-th.png"></a>
+          </td>
+        </tr>
+        <tr class="table-content">
+
+          <td><img class="patient-photo" src="http://static1.squarespace.com/static/51773f51e4b054c7ac3739b7/t/55665b32e4b0194f00fc5e39/1432771379131/Ian+Somerhalder+Bradford+Rogne+Headshots+Los+Angeles.jpg?format=original"></td>
+          <td><a href="profile.html">Otto Ottoman</a></td>
+          <td>April 4th, 2:00 PM</td>
+          <td>
+
+              <a href="#"><img class="assess-icon" src="http://www.pupz.com.au/wp-content/themes/twentyten/images/patches/heart.png"></a>
+              <a href="#"><img class="assess-icon" src="http://cliparts.co/cliparts/8TE/b5d/8TEb5dXGc.png"></a>
+              <a href="#"><img class="assess-icon" src="http://www.clker.com/cliparts/Y/c/q/c/H/0/basketball-th.png"></a>
+          </td>
+        </tr>
+        <tr class="table-content">
+
+          <td><img class="patient-photo" src="http://www.colemanphotographix.com/wp-content/uploads/WomensHeadshot-0015.jpg"></td>
+          <td><a href="profile.html">Michelle Wellness</a></td>
+          <td>April 6th, 4:00 PM</td>
+          <td>
+
+              <a href="#"><img class="assess-icon" src="http://www.pupz.com.au/wp-content/themes/twentyten/images/patches/heart.png"></a>
+              <a href="#"><img class="assess-icon" src="http://cliparts.co/cliparts/8TE/b5d/8TEb5dXGc.png"></a>
+              <a href="#"><img class="assess-icon" src="http://www.clker.com/cliparts/Y/c/q/c/H/0/basketball-th.png"></a>
+          </td>
+        </tr>
+        <tr class="table-content">
+
+          <td><img class="patient-photo" src="https://cdn.fstoppers.com/styles/full/s3/lead/2014/12/fstoppers-dylan-patrick-setting-up-a-successful-headshot-session-8.jpg"></td>
+          <td><a href="profile.html">Mike Mikers</a></td>
+          <td>April 12th, 8:00 PM</td>
+          <td>
+
+              <a href="#"><img class="assess-icon" src="http://www.pupz.com.au/wp-content/themes/twentyten/images/patches/heart.png"></a>
+              <a href="#"><img class="assess-icon" src="http://cliparts.co/cliparts/8TE/b5d/8TEb5dXGc.png"></a>
+              <a href="#"><img class="assess-icon" src="http://www.clker.com/cliparts/Y/c/q/c/H/0/basketball-th.png"></a>
+          </td>
+        </tr>
+        <tr class="table-content">
+
+          <td><img class="patient-photo" src="http://static1.squarespace.com/static/51773f51e4b054c7ac3739b7/t/55665b32e4b0194f00fc5e39/1432771379131/Ian+Somerhalder+Bradford+Rogne+Headshots+Los+Angeles.jpg?format=original"></td>
+          <td><a href="profile.html">Otto Ottoman</a></td>
+          <td>April 4th, 2:00 PM</td>
+          <td>
+
+              <a href="#"><img class="assess-icon" src="http://www.pupz.com.au/wp-content/themes/twentyten/images/patches/heart.png"></a>
+              <a href="#"><img class="assess-icon" src="http://cliparts.co/cliparts/8TE/b5d/8TEb5dXGc.png"></a>
+              <a href="#"><img class="assess-icon" src="http://www.clker.com/cliparts/Y/c/q/c/H/0/basketball-th.png"></a>
+          </td>
+        </tr>
+        <tr class="table-content">
+
+          <td><img class="patient-photo" src="http://www.colemanphotographix.com/wp-content/uploads/WomensHeadshot-0015.jpg"></td>
+          <td><a href="profile.html">Michelle Wellness</a></td>
+          <td>April 6th, 4:00 PM</td>
+          <td>
+
+              <a href="#"><img class="assess-icon" src="http://www.pupz.com.au/wp-content/themes/twentyten/images/patches/heart.png"></a>
+              <a href="#"><img class="assess-icon" src="http://cliparts.co/cliparts/8TE/b5d/8TEb5dXGc.png"></a>
+              <a href="#"><img class="assess-icon" src="http://www.clker.com/cliparts/Y/c/q/c/H/0/basketball-th.png"></a>
+          </td>
+        </tr>
+        <tr class="table-content">
+
+          <td><img class="patient-photo" src="https://cdn.fstoppers.com/styles/full/s3/lead/2014/12/fstoppers-dylan-patrick-setting-up-a-successful-headshot-session-8.jpg"></td>
+          <td><a href="profile.html">Mike Mikers</a></td>
+          <td>April 12th, 8:00 PM</td>
+          <td>
+
+              <a href="#"><img class="assess-icon" src="http://www.pupz.com.au/wp-content/themes/twentyten/images/patches/heart.png"></a>
+              <a href="#"><img class="assess-icon" src="http://cliparts.co/cliparts/8TE/b5d/8TEb5dXGc.png"></a>
+              <a href="#"><img class="assess-icon" src="http://www.clker.com/cliparts/Y/c/q/c/H/0/basketball-th.png"></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+
+
+
+
+</body>
+</html>
