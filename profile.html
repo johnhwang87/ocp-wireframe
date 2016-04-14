@@ -107,7 +107,40 @@
     <h3>Otto's Assessments</h3>
     </div>
     <div class="col-md-6">
-    <button type="button" class="btn btn-success new-assess">New Assessment</button>
+    <button type="button" class="btn btn-success new-assess" data-toggle="modal" data-target="#assess-modal">New Assessment</button>
+    </div>
+    <div id="assess-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">New Assessment</h4>
+          </div>
+          <div class="modal-body">
+          <p>Choose assessment to begin:</p>
+            <ul class="assess-list">
+              <div class="row">
+                <li><a href="assessment.html"><img class="assess-icon" src="http://valentineweek-2016.com/wp-content/uploads/2016/01/Heart-Png-Transparent-04.png">&nbsp&nbspHEART</a></li>
+                <li><a href="assessment.html"><img class="assess-icon" src="http://vignette2.wikia.nocookie.net/jet/images/5/56/Runer_start.png/revision/latest?cb=20110208021027">&nbsp&nbspSTART</a></li>
+                <li><a href="assessment.html"><img class="assess-icon" src="http://cliparts.co/cliparts/8TE/b5d/8TEb5dXGc.png">&nbsp&nbspBaseball</a></li>
+                <li><a href="assessment.html"><img class="assess-icon" src="http://www.planetarymoodring.org/wp-content/uploads/2016/04/golf-icon.png">&nbsp&nbspGolf</a></li>
+              </div>
+              <div class="row">
+                <li><a href="assessment.html"><img class="assess-icon" src="http://www.iconarchive.com/download/i65369/icons-land/metro-raster-sport/Soccer-Ball.ico">&nbsp&nbspSoccer</a></li>
+                <li><a href="assessment.html"><img class="assess-icon" src="http://images.clipartpanda.com/basketball-20clipart-ncE5GoLcA.png">&nbsp&nbspBasketball</a></li>
+                <li><a href="assessment.html"><img class="assess-icon" src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-10/512/Sport-american-football-icon.png">&nbsp&nbspFootball</a></li>
+                <li><a href="assessment.html"><img class="assess-icon" src="http://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=97105694">&nbsp&nbspQuidditch</a></li>
+              </div>
+            </ul>
+
+
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
     </div>
     </div><br>
 
