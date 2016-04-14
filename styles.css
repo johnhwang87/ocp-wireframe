@@ -269,3 +269,88 @@ svg.graph .labels.y-labels {
 
 
 
+.progress-tracker {margin-top: 40px;}
+
+/*Form Wizard*/
+.progress-tracker {
+  border-bottom: solid 1px #e0e0e0;
+  padding: 0 0 10px 0;
+}
+.progress-tracker > .progress-tracker-step {
+  padding: 0;
+  position: relative;
+}
+
+.progress-tracker > .progress-tracker-step .progress-tracker-stepnum {
+  color: #595959;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.progress-tracker > .progress-tracker-step .progress-tracker-info {
+  color: #999;
+  font-size: 14px;
+}
+.progress-tracker > .progress-tracker-step > .progress-tracker-dot {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  display: block;
+  background: #fbe8aa;
+  top: 45px;
+  left: 50%;
+  margin-top: -15px;
+  margin-left: -15px;
+  border-radius: 50%;
+}
+.progress-tracker > .progress-tracker-step > .progress-tracker-dot:after {
+  content: ' ';
+  width: 14px;
+  height: 14px;
+  background: #fbbd19;
+  border-radius: 50px;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+.progress-tracker > .progress-tracker-step > .progress {
+  position: relative;
+  border-radius: 0px;
+  height: 8px;
+  box-shadow: none;
+  margin: 20px 0;
+}
+.progress-tracker > .progress-tracker-step > .progress > .progress-bar {
+  width:0px;
+  box-shadow: none;
+  background: #fbe8aa;
+}
+.progress-tracker > .progress-tracker-step.complete > .progress > .progress-bar {
+  width:100%;
+}
+.progress-tracker > .progress-tracker-step.active > .progress > .progress-bar {
+  width:50%;
+}
+.progress-tracker > .progress-tracker-step:first-child.active > .progress > .progress-bar {
+  width:0%;
+}
+.progress-tracker > .progress-tracker-step:last-child.active > .progress > .progress-bar {
+  width: 100%;
+}
+.progress-tracker > .progress-tracker-step.disabled > .progress-tracker-dot {
+  background-color: #f5f5f5;
+}
+.progress-tracker > .progress-tracker-step.disabled > .progress-tracker-dot:after {
+  opacity: 0;
+}
+.progress-tracker > .progress-tracker-step:first-child  > .progress {
+  left: 50%; width: 50%;
+}
+.progress-tracker > .progress-tracker-step:last-child  > .progress {
+  width: 50%;
+}
+.progress-tracker > .progress-tracker-step.disabled a.progress-tracker-dot{
+  pointer-events: none;
+}
+
+
+
