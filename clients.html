@@ -19,29 +19,6 @@
 </head>
 <body>
 
-<!--   <div class="navbar navbar-default navbar-top">
-    <a class="navbar-brand" href="#">OCP</a>
-    <ul class="nav-sections">
-      <li class="nav"><a href="index.html" data-toggle="tooltip" title="Home"><span class="glyphicon glyphicon-nav glyphicon-home"></span>Home</a></li>
-      <li class="nav"><a href="clients.html" data-toggle="tooltip" title="About Us"><span class="glyphicon glyphicon-nav glyphicon-user"></span>Clients</a></li>
-      <li class="nav"><a href="schedule.html" data-toggle="tooltip" title="Contact Info"><span class="glyphicon glyphicon-nav glyphicon-calendar"></span>Schedule</a></li>
-    </ul>
-
-    <ul class="dash-info">
-      <li>
-      <div class="row">
-        <a href="user-profile.html"><div class="col-xs-3">
-          <img class="navbar-pic" src="https://www.science.unsw.edu.au/files/news/527C868C9284958A22F9E4D448BDDA12.JPG">
-        </div>
-        <div class="col-xs-8">
-          <p>Welcome, <br>President Obama</p>
-        </div></a>
-      </div>
-      </li>
-      <li class="nav2"><a href="#">Settings</a></li>
-      <li class="nav2"><a href="#">Logout</a></li>
-    </ul>
-  </div> -->
 
 <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -98,21 +75,35 @@
 
          <h3 class="client-header">Clients</h3>
 
-         <form action="" class="search-form">
-          <div class="form-group has-feedback">
+
+<!--           <div class="form-group has-feedback">
           <label for="search" class="sr-only">Search</label>
           <input type="text" class="form-control" name="search" id="search" placeholder="Search Clients">
           <span class="glyphicon glyphicon-search form-control-feedback"></span>
           </div>
-         </form>
+         </form> -->
 
-         <form class="navbar-form navbar-left" role="search">
-            <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
-            </div>
-            <button id="submit" type="submit" class="btn btn-default">Submit</button>
-         </form>
+<!--          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group"> -->
+            <input id="clientName" type="text" class="form-control" placeholder="Search">
 
+            <button id="searchClient" type="submit" class="btn btn-primary">Submit</button>
+         <!-- </form> -->
+         <h2>Results</h2>
+            <table class="table table-striped" id="results">
+            <thead>
+              <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>John</td>
+                <td>Hwang</td>
+              </tr>
+            </tbody>
+            </table>
 
     <br>
     <table class="table table-hover" id="table">

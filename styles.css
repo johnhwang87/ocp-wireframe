@@ -13,8 +13,8 @@
 
 /*client profile*/
 .profile-photo {
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   background-size: contain;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -30,6 +30,12 @@ table {
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+.table th {
+  font-size: 22px;
+}
+.table td {
+  font-size: 18px;
 }
 .patient-photo {
   height: 40px;
@@ -76,8 +82,13 @@ table {
 }
 .new-assess {
   float: right;
-   }
-
+}
+.client-info h5 {
+  font-size: 18px;
+}
+.client-info p {
+  font-size: 18px;
+}
 .profile-header {
   display: inline-block;
 }
@@ -86,6 +97,7 @@ table {
   height: 450px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding-top: 2%;
+  width: 100%;
   /*overflow-y: scroll;*/
 }
 .team-dash-container {
@@ -100,6 +112,7 @@ table {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding-top: 2%;
   overflow-y: scroll;
+  width: 100%;
 }
 .team-dash-pic {
   height: 40px;
@@ -138,24 +151,27 @@ table {
   display: inline-block;
   list-style: none;
   height: 70px;
-  border-bottom: 1px solid #e8e8ed;
   margin-right: 5%;
+  width: 100%;
+
 }
 .contact-feed {
   float: right;
   padding-top: 20px;
 }
 .content-feed {
-  width: 700px;
+  width: 100%;
   padding-top: 20px;
+
 }
 .feed-type {
-  border-right: 1px solid #e8e8ed;
   height: 100%;
   padding-top: 3px;
+  width: 100%;
 }
 .feed-date {
   color: grey;
+  padding-top: 5px;
 }
 .btn-type {
   width: 80%;
@@ -351,6 +367,10 @@ svg.graph .labels.y-labels {
 .progress-tracker > .progress-tracker-step.disabled a.progress-tracker-dot{
   pointer-events: none;
 }
+
+
+
+
 
 
 
